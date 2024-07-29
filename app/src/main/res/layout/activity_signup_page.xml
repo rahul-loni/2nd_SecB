@@ -57,14 +57,32 @@
             android:inputType="numberPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="Signup "
         android:textSize="22sp"
         android:layout_marginTop="20dp"
         />
-
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Member ? "
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/txt_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="22sp"
+            android:textColor="@color/Text_Color"/>
+    </LinearLayout>
 </LinearLayout>
